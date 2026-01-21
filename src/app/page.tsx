@@ -28,16 +28,17 @@ export default function Home() {
               <div className="mono-text text-sm text-gray-800 space-y-1 leading-relaxed">
                 <div>{"{"}</div>
                 <div className="ml-4">&quot;name&quot;: &quot;ta3ls&quot;,</div>
-                <div className="ml-4">&quot;role&quot;: &quot;Full Stack Developer / Vibe Coder&quot;,</div>
+                <div className="ml-4">&quot;role&quot;: &quot;Full Stack Developer / Technical Product Manager&quot;,</div>
                 <div className="ml-4">&quot;education&quot;: &quot;Master of Computer Science&quot;,</div>
-                <div className="ml-4">&quot;location&quot;: &quot;Auckland, New Zealand&quot;,</div>
+                <div className="ml-4">&quot;location&quot;: &quot;Shanghai, China / Auckland, New Zealand&quot;,</div>
                 <div className="ml-4">&quot;experience&quot;: [</div>
-                <div className="ml-8">&quot;Product Manager Intern &quot;,</div>
+                <div className="ml-8">&quot;Product Manager&quot;,</div>
                 <div className="ml-8">&quot;Blockchain Developer&quot;,</div>
                 <div className="ml-8">&quot;Research Assistant&quot;</div>
                 <div className="ml-4">],</div>
                 <div className="ml-4">&quot;specialties&quot;: [&quot;DeFi&quot;, &quot;Smart Contracts&quot;, &quot;Product Design&quot;, &quot;Web3&quot;],</div>
-                <div className="ml-4">&quot;status&quot;: &quot;Building the next generation of blockchain applications&quot;</div>
+                <div className="ml-4">&quot;status&quot;: &quot;<del className="text-gray-400">Building the next generation of blockchain applications</del></div>
+                <div className="ml-4 pl-[3.5rem]">Abandoning unrealistic fantasies, building AI applications with true practical value.&quot;</div>
                 <div>{"}"}</div>
               </div>
             </CardContent>
@@ -92,10 +93,10 @@ export default function Home() {
                 <div className="ml-4">{"{"}</div>
                 <div className="ml-8">&quot;name&quot;: &quot;zk-SNARK User Authentication&quot;,</div>
                 <div className="ml-8">&quot;description&quot;: &quot;Zero-Knowledge Proof User Credential System&quot;,</div>
-                <div className="ml-8">&quot;tech&quot;: [&quot;Zero-Knowledge Proofs&quot;, &quot;Circom&quot;, &quot;Web3&quot;],</div>
+                <div className="ml-8">&quot;tech&quot;: [&quot;Zero-Knowledge Proofs&quot;, &quot;Circom&quot;],</div>
                 <div className="ml-8">&quot;type&quot;: &quot;Research Project&quot;</div>
                 <div className="ml-4">{"}"}, </div>
-                
+
                 <div>]</div>
               </div>
             </CardContent>
@@ -117,22 +118,22 @@ export default function Home() {
                 <div>{"}"}</div>
               </div>
               <div className="flex flex-wrap gap-3">
-                <Button 
-                  variant="outline" 
+                <Button
+                  variant="outline"
                   className="simple-hover border-gray-300 text-gray-700 hover:bg-gray-50"
                   asChild
                 >
                   <a href="https://t.me/ta3ls" target="_blank" rel="noopener noreferrer">Telegram</a>
                 </Button>
-                <Button 
-                  variant="outline" 
+                <Button
+                  variant="outline"
                   className="simple-hover border-gray-300 text-gray-700 hover:bg-gray-50"
                   asChild
                 >
                   <a href="https://github.com/ta33ls" target="_blank" rel="noopener noreferrer">GitHub</a>
                 </Button>
-                <Button 
-                  variant="outline" 
+                <Button
+                  variant="outline"
                   className="simple-hover border-gray-300 text-gray-700 hover:bg-gray-50"
                   asChild
                 >
@@ -153,7 +154,7 @@ export default function Home() {
         {/* Footer */}
         <footer className="text-center">
           <p className="mono-text text-sm text-gray-500">
-            © 2025 ta3ls.dev
+            © 2026 ta3ls.dev
           </p>
         </footer>
       </div>
