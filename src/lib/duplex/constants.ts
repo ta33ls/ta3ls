@@ -1,0 +1,5 @@
+export const DUPLEX_INTERVAL_SECONDS = 15;
+export const DUPLEX_INTERVAL_MS = DUPLEX_INTERVAL_SECONDS * 1000;
+export const DUPLEX_THREAD = "main";
+export const DUPLEX_HISTORY_LIMIT = 50;
+export const DUPLEX_CONTEXT_LIMIT = 16;
